@@ -3,7 +3,7 @@ import requests
 import json
 
 BASEURL = 'http://vivek.tj.dev.do.kasten.io'
-API_PATH = '/api/pets'
+API_PATH = '/api/pets1'
 
 class CHttpClass:
     '''
@@ -301,6 +301,7 @@ def ScenarioExecution4():
                 print ("\033[44;41mScenarion Execution 4 is failed\033[0m")
                 isSuccess = False
         else:
+            print ("\033[44;41mScenarion Execution 4 is failed\033[0m")
             isSuccess = False
 
         return isSuccess
