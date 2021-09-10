@@ -3,7 +3,7 @@ import requests
 import json
 
 BASEURL = 'http://vivek.tj.dev.do.kasten.io'
-API_PATH = '/api/pets1'
+API_PATH = '/api/pets'
 
 class CHttpClass:
     '''
